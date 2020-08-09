@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #485E6C;
+    font-family: Roboto, Montserrat, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #080808;
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(8,8,8,0.1);
+    font-size: 1.2rem;
+    padding: 0.3rem 0;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+
+.navbar .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    overflow: hidden;
+    padding: 0.7rem 2rem;
+}
+
+.navbar .container h1{
+    color: #080808;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-end;
+}
+.nav a{
+    padding: 0 1rem;
+}
+.nav a:hover{
+    color: #485E6C;
+}
+
+.hero{
+    padding: 5rem 0;
+    background-color: #FFFFFF;
+}
+
+.hero .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .container img{
+    width: 80%;
+    margin: 1rem 0;
+    justify-self: flex-end;
+}
+
+.hero h1{
+    font-size: 4rem;
+    color: #080808;
+}
+
+.hero p{
+    margin: 1rem 0 2rem 0;
+    font-size: 0.8rem;
+}
+
+.hero .btn{
+    background-color: #080808;
+    color: #FFFFFF;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 50px;
+}
+.hero .btn:hover{
+    background-color: #485E6C;
+}
+.feature{
+    height: 600px;
+    position: relative;
+    background: url("../images/bg-2.png") no-repeat bottom center/cover;
+}
+
+.feature .inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: inherit;
+}
+
+.feature .inner h2{
+    font-size: 4rem;
+    margin: 1rem 0;
+}
+
+.feature .inner h3{
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.product-features{
+    margin: 3rem 0;
+}
+.product-features .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+
+.product-features .container div{
+    background-color: #ffffff;
+    color: #080808;
+    padding: 1rem;
+    border: none;
+    box-shadow: 0 1px 1px #333333;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(8,8,8,0.7);
+}
