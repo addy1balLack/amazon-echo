@@ -20,6 +20,7 @@ ul{
 nav{
     background-color: #FFFFFF;
     position: fixed;
+    z-index: 1;
     width: 100%;
     box-shadow: 0 1px 3px rgba(8,8,8,0.1);
     font-size: 1.2rem;
@@ -127,6 +128,12 @@ nav{
 .product-features{
     margin: 3rem 0;
 }
+.product-features h1{
+    text-align: center;
+    font-size: 4rem;
+    margin: 2rem 0;
+    color: white;
+}
 .product-features .container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -138,7 +145,22 @@ nav{
     color: #080808;
     padding: 1rem;
     border: none;
+    text-align: center;
     box-shadow: 0 1px 1px #333333;
+}
+
+.product-features .card h3{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-features .card p{
+    font-size: 13px;
+}
+
+.product-features .card i{
+    padding: 1rem;
 }
 
 .overlay{
